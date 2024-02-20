@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 0.5vw 0;
+    font-family: Helvetica, arial,  sans-serif;
+    background-color: gray;
+    color: black;
+    border-radius: 10px;
+}
+
+header h1{
+    font-size: 32px;
+}
+
+header h1::first-letter{
+    font-size: 60px ;
+}
+
+header h1{
+    margin-left: 2vw ;
+}
+
+
+nav{
+    background-color: black;
+    padding: 2vw 0 ;
+    border-radius: 10px;
+}
+
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap:  8vw ;
+    margin-left: 8vw ;
+    border-radius: 10px;
+    background-color: black;
+}
+
+nav  ul li a{
+    border-right: 2px solid white;
+    padding: 20px 5px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+
+section{
+    padding: 3vw 0;
+    text-align: center;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8vw 0;
+    gap: 8vw;
+}
+
+
+main > div{
+    width: fit-content;
+}
+
+main > div > div:first-of-type{
+    border-top-left-radius:10px ;
+    border-top-right-radius:40px ;
+    background-color: gray;
+    width: 20vw;
+    padding-bottom: 2vw;
+}
+
+main > div > div:last-of-type{
+    border-top-left-radius:10px ;
+    border-top-right-radius:40px ;
+    border-bottom-left-radius:40px ;
+    border-bottom-right-radius:10px ;
+    background-color: black;
+    color: white;
+    width: 20vw;
+    padding: 10vw 0;
+    text-align: center;
+
+}
+
+main > div > div:last-of-type > div:last-of-type{
+    
+    width: fit-content;
+    background-color: gray;
+    margin: auto;
+    padding: 5px 4px;
+    margin-top: 10px;
+}
+
+main > div > div:last-of-type > div:last-of-type a {
+    text-decoration: none;
+    color: white;
+}
+
+.video{
+    padding: 50px 0;
+}
+
+.video div{
+    width: fit-content;
+    margin: auto;
+}
+
+@media (max-width: 700px){
+    nav{
+        height: fit-content;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 8vw;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        padding: 3vw 0;
+        
+    }
+
+    nav ul li a{
+        border: 2px dotted white;
+        padding: 10px 20vw;
+    }
+    main{
+        flex-direction: column;
+        align-content: center;
+        justify-items: center;
+        gap: 10px;
+    }
+}
+
+
+
