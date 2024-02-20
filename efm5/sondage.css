@@ -1,0 +1,44 @@
+form div{
+    
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+#non{
+    margin-left: 10px;
+}
+
+*{
+    margin: 5px 0;
+}
+
+fieldset{
+    width: 40vw;
+    
+}
+
+body{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+#nom:valid {
+    color: green;
+}
+
+#nom:invalid{
+    color: red;
+}
+
+#email:valid {
+    color: green;
+}
+
+#email:invalid{
+    color: red;
+}
+
+input[type="text"]:focus{
+    background-color: pink;
+}
