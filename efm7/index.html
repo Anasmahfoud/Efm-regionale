@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1  ><span class="red">De</span>mande d'inscription avec dépot au centre de Services Citoyens</h1>
+    <div class="creer"><input type="radio" id="creer" nom="creer"> <label for="creer">Je veuw créer une nouvelle inscription</label> <input type="radio" name="creer" id="nocreer"> <label for="nocreer">J'ai dèja une demande d'inscription non encore déposé auprès du CSC</label></div>
+    <fieldset>
+        <legend><span class="red">Inf</span>ormation du chef de ménage</legend>
+        <form action="">
+            <div class="row-1">
+                <div><fieldset><legend>IDCS: <span class="read-bg">*</span></legend><input id="idcs" type="text" placeholder="Identifiant digitale Civil et Social"></fieldset></div>
+
+                <div><fieldset><legend>Nom: <span class="read-bg">*</span></legend><input id="nom" type="text" ></fieldset></div>
+
+                <div><fieldset><legend>Prenom: <span class="read-bg">*</span></legend><input id="prenom" type="text"></fieldset></div>
+
+                <div><fieldset><legend>Jour:</legend><input id="jour" type="text" placeholder="JJ"></fieldset> <fieldset><legend>Mois:</legend><input id="mois" type="text" placeholder="MM"></fieldset> <fieldset><legend>Anné: <span class="read-bg">*</span></legend><input id="anne" type="text" placeholder="AAAA"></fieldset></div>
+            </div>
+            <div class="row-2">
+                <fieldset><legend>Genre: <span class="read-bg">*</span></legend><input id="feminin" type="radio"> <label for="feminin">Féminin</label> <input id="feminin" type="radio"> <label for="masculin">Masculin</label></fieldset>
+
+                <fieldset><legend>Type de la pièce d'identité: <span class="read-bg">*</span></legend><input id="typeid"  list="typeidl" placeholder="Electionnez un élément" > <datalist id="typeidl"><option value="CNIE"></option> <option value="Passeport"></option><option value="Carte de séjour"></option></datalist></fieldset>
+
+                <fieldset><legend>N° de la pièce d'identité: <span class="read-bg">*</span></legend><input type="text" id="numid"></fieldset>
+            </div>
+            
+        </form>
+    </fieldset>
+
+    <fieldset class="field2">
+        <legend><span class="red">Ad</span>resse du ménage:</legend>
+        <div class="row-3">
+            <div><fieldset><legend>Région: <span class="read-bg">*</span></legend><input id="region" list="regionl" placeholder="selectionnez un élément"> <datalist id="region"></datalist>  </fieldset></div>
+
+            <div><fieldset><legend>Préfécture ou Province: <span class="read-bg">*</span></legend><input id="pr" list="prl" placeholder="selectionnez un élément"> <datalist id="prl"></datalist>  </fieldset></div>
+
+            <div><fieldset><legend>Pchalik ou Cerle ou District:: <span class="read-bg">*</span></legend><input id="pch" list="pchl" placeholder="selectionnez un élément"> <datalist id="pchl"></datalist>  </fieldset></div>
+
+            
+        </div>
+        
+    </fieldset>
+
+     <div class="buttons">
+        <button>ANNULER</button> <button>VALIDER</button>
+     </div>    
+</body>
+</html>

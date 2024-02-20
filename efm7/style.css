@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body > h1:first-of-type{
+    text-align: center;
+    padding: 1vw 0;
+}
+
+.creer{
+    inset: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 1vw 0;
+}
+
+#nocreer{
+    margin-left: 2em;
+}
+
+fieldset{
+    border-radius: 5px;
+    width: 95vw;
+    padding: 1vw 0;
+    margin: auto;
+}
+
+.red{
+    text-decoration: underline red 5px;
+
+}
+
+
+body > div > input[type="radio"]{
+    accent-color: blue;
+}
+
+fieldset input{
+    border: none;
+    padding: 8px;
+    width: 100%;
+}
+
+.read-bg{
+    color: red;
+}
+
+
+.row-1 fieldset{
+    width: 19vw;
+    height: 5vw;
+}
+
+
+.row-1{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+.row-1 > div:last-of-type{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    margin-left: 10px;
+}
+
+.row-1 > div:last-of-type fieldset:first-of-type {
+    width: 5.5vw;
+}
+
+
+.row-1 > div:last-of-type fieldset:nth-of-type(2) {
+    width: 5.5vw;
+}
+
+
+
+.row-2{
+    display: flex;
+    justify-content: start;
+    gap:15px;
+    width: 90vw;
+    padding: 10px 0;
+}
+
+.row-2 fieldset{
+    width: 19vw;
+    height: 5vw;
+
+}
+
+
+#masculin ,  #feminin{
+    padding: 0;
+    
+    width: initial;
+}
+
+#masculin{
+    margin-left: 0px;
+}
+
+#feminin{
+    margin-left: 20% ;
+}
+
+
+.row-3{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    gap: 0.5vw ;
+
+}
+
+
+.row-3 > div >  fieldset{
+    width: 28vw;
+    margin: auto;
+}
+
+.field2{
+    margin-top: 3vw;
+}
+
+input:focus{
+    box-shadow: 5px 5px 6px black;
+    border: 2px solid blue;
+    outline: 2px solid blue;
+}
+
+
+.buttons{
+    width: fit-content;
+    margin-left:auto;
+    margin-right: 3vw;
+    padding: 3vw 0;
+}
+
+
+.buttons button:first-of-type{
+    background-color: green;
+    color: white;
+    padding: 6px 2vw;
+    margin-right: 5px;
+}
+
+.buttons button:last-of-type{
+    background-color: gainsboro;
+    color: black;
+    padding: 6px 2vw;
+}
+
